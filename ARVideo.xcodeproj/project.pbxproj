@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7705523D201D890000176AB5 /* AirPods.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 77055234201D88EC00176AB5 /* AirPods.mp4 */; };
+		7705523E201D890300176AB5 /* HomPod.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7705523B201D88F100176AB5 /* HomPod.mp4 */; };
+		7705523F201D890700176AB5 /* iMac Pro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 77055239201D88F000176AB5 /* iMac Pro.mp4 */; };
+		77055240201D890A00176AB5 /* iPad Pro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 77055238201D88F000176AB5 /* iPad Pro.mp4 */; };
+		77055241201D890E00176AB5 /* iPhone 7 & 7+.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7705523A201D88F100176AB5 /* iPhone 7 & 7+.mp4 */; };
+		77055242201D891000176AB5 /* iPhone 8 & 8+.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7705523C201D88F100176AB5 /* iPhone 8 & 8+.mp4 */; };
+		77055243201D891400176AB5 /* iPhone X.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 77055235201D88ED00176AB5 /* iPhone X.mp4 */; };
+		77055244201D891D00176AB5 /* MacBook Pro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 77055236201D88EE00176AB5 /* MacBook Pro.mp4 */; };
+		77055245201D891F00176AB5 /* Watch Series 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 77055237201D88EF00176AB5 /* Watch Series 3.mp4 */; };
+		77055247201D8A8500176AB5 /* Ronaldo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 77055246201D8A8200176AB5 /* Ronaldo.mp4 */; };
+		77055249201D8C0E00176AB5 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77055248201D8C0E00176AB5 /* ProductListViewController.swift */; };
+		77C93495201C904A00E7FF69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C93494201C904A00E7FF69 /* AppDelegate.swift */; };
+		77C93497201C904A00E7FF69 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C93496201C904A00E7FF69 /* art.scnassets */; };
+		77C93499201C904A00E7FF69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C93498201C904A00E7FF69 /* ViewController.swift */; };
+		77C9349C201C904A00E7FF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C9349A201C904A00E7FF69 /* Main.storyboard */; };
+		77C9349E201C904A00E7FF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C9349D201C904A00E7FF69 /* Assets.xcassets */; };
+		77C934A1201C904A00E7FF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C9349F201C904A00E7FF69 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77055234201D88EC00176AB5 /* AirPods.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AirPods.mp4; sourceTree = "<group>"; };
+		77055235201D88ED00176AB5 /* iPhone X.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iPhone X.mp4"; sourceTree = "<group>"; };
+		77055236201D88EE00176AB5 /* MacBook Pro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MacBook Pro.mp4"; sourceTree = "<group>"; };
+		77055237201D88EF00176AB5 /* Watch Series 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Watch Series 3.mp4"; sourceTree = "<group>"; };
+		77055238201D88F000176AB5 /* iPad Pro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iPad Pro.mp4"; sourceTree = "<group>"; };
+		77055239201D88F000176AB5 /* iMac Pro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iMac Pro.mp4"; sourceTree = "<group>"; };
+		7705523A201D88F100176AB5 /* iPhone 7 & 7+.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iPhone 7 & 7+.mp4"; sourceTree = "<group>"; };
+		7705523B201D88F100176AB5 /* HomPod.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomPod.mp4; sourceTree = "<group>"; };
+		7705523C201D88F100176AB5 /* iPhone 8 & 8+.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iPhone 8 & 8+.mp4"; sourceTree = "<group>"; };
+		77055246201D8A8200176AB5 /* Ronaldo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ronaldo.mp4; sourceTree = "<group>"; };
+		77055248201D8C0E00176AB5 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		77C93491201C904A00E7FF69 /* ARVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C93494201C904A00E7FF69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77C93496201C904A00E7FF69 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		77C93498201C904A00E7FF69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77C9349B201C904A00E7FF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77C9349D201C904A00E7FF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77C934A0201C904A00E7FF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77C934A2201C904A00E7FF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77C9348E201C904A00E7FF69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77C93488201C904A00E7FF69 = {
+			isa = PBXGroup;
+			children = (
+				77C93493201C904A00E7FF69 /* ARVideo */,
+				77C93492201C904A00E7FF69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77C93492201C904A00E7FF69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77C93491201C904A00E7FF69 /* ARVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77C93493201C904A00E7FF69 /* ARVideo */ = {
+			isa = PBXGroup;
+			children = (
+				77C93494201C904A00E7FF69 /* AppDelegate.swift */,
+				77C93496201C904A00E7FF69 /* art.scnassets */,
+				77C93498201C904A00E7FF69 /* ViewController.swift */,
+				77055234201D88EC00176AB5 /* AirPods.mp4 */,
+				7705523B201D88F100176AB5 /* HomPod.mp4 */,
+				77055239201D88F000176AB5 /* iMac Pro.mp4 */,
+				77055238201D88F000176AB5 /* iPad Pro.mp4 */,
+				7705523A201D88F100176AB5 /* iPhone 7 & 7+.mp4 */,
+				77055246201D8A8200176AB5 /* Ronaldo.mp4 */,
+				7705523C201D88F100176AB5 /* iPhone 8 & 8+.mp4 */,
+				77055235201D88ED00176AB5 /* iPhone X.mp4 */,
+				77055236201D88EE00176AB5 /* MacBook Pro.mp4 */,
+				77055237201D88EF00176AB5 /* Watch Series 3.mp4 */,
+				77C9349A201C904A00E7FF69 /* Main.storyboard */,
+				77C9349D201C904A00E7FF69 /* Assets.xcassets */,
+				77C9349F201C904A00E7FF69 /* LaunchScreen.storyboard */,
+				77C934A2201C904A00E7FF69 /* Info.plist */,
+				77055248201D8C0E00176AB5 /* ProductListViewController.swift */,
+			);
+			path = ARVideo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77C93490201C904A00E7FF69 /* ARVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C934A5201C904A00E7FF69 /* Build configuration list for PBXNativeTarget "ARVideo" */;
+			buildPhases = (
+				77C9348D201C904A00E7FF69 /* Sources */,
+				77C9348E201C904A00E7FF69 /* Frameworks */,
+				77C9348F201C904A00E7FF69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARVideo;
+			productName = ARVideo;
+			productReference = 77C93491201C904A00E7FF69 /* ARVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77C93489201C904A00E7FF69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mallow technologies";
+				TargetAttributes = {
+					77C93490201C904A00E7FF69 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 77C9348C201C904A00E7FF69 /* Build configuration list for PBXProject "ARVideo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77C93488201C904A00E7FF69;
+			productRefGroup = 77C93492201C904A00E7FF69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77C93490201C904A00E7FF69 /* ARVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77C9348F201C904A00E7FF69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77055245201D891F00176AB5 /* Watch Series 3.mp4 in Resources */,
+				77055247201D8A8500176AB5 /* Ronaldo.mp4 in Resources */,
+				7705523F201D890700176AB5 /* iMac Pro.mp4 in Resources */,
+				77055243201D891400176AB5 /* iPhone X.mp4 in Resources */,
+				7705523E201D890300176AB5 /* HomPod.mp4 in Resources */,
+				77055244201D891D00176AB5 /* MacBook Pro.mp4 in Resources */,
+				77055240201D890A00176AB5 /* iPad Pro.mp4 in Resources */,
+				77C93497201C904A00E7FF69 /* art.scnassets in Resources */,
+				7705523D201D890000176AB5 /* AirPods.mp4 in Resources */,
+				77C934A1201C904A00E7FF69 /* LaunchScreen.storyboard in Resources */,
+				77C9349E201C904A00E7FF69 /* Assets.xcassets in Resources */,
+				77C9349C201C904A00E7FF69 /* Main.storyboard in Resources */,
+				77055242201D891000176AB5 /* iPhone 8 & 8+.mp4 in Resources */,
+				77055241201D890E00176AB5 /* iPhone 7 & 7+.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77C9348D201C904A00E7FF69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C93499201C904A00E7FF69 /* ViewController.swift in Sources */,
+				77055249201D8C0E00176AB5 /* ProductListViewController.swift in Sources */,
+				77C93495201C904A00E7FF69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77C9349A201C904A00E7FF69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C9349B201C904A00E7FF69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77C9349F201C904A00E7FF69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C934A0201C904A00E7FF69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77C934A3201C904A00E7FF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77C934A4201C904A00E7FF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77C934A6201C904A00E7FF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RHR7K3FP7;
+				INFOPLIST_FILE = ARVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mallowtech.ARVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77C934A7201C904A00E7FF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RHR7K3FP7;
+				INFOPLIST_FILE = ARVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mallowtech.ARVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77C9348C201C904A00E7FF69 /* Build configuration list for PBXProject "ARVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C934A3201C904A00E7FF69 /* Debug */,
+				77C934A4201C904A00E7FF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C934A5201C904A00E7FF69 /* Build configuration list for PBXNativeTarget "ARVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C934A6201C904A00E7FF69 /* Debug */,
+				77C934A7201C904A00E7FF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77C93489201C904A00E7FF69 /* Project object */;
+}
